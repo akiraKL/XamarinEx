@@ -12,6 +12,12 @@ namespace Chapter1App
         public MainPage()
         {
             InitializeComponent();
+
+            Content = new Label
+            {
+                Text = "HI Xamarin.Forms!"
+            };
+
         }
     }
 }
